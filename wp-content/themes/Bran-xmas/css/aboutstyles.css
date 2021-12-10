@@ -1,0 +1,114 @@
+.aheader{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+
+.himage{
+    width: 150px;
+    height: 263px;
+    background-color: black;
+    margin: 2.5px;
+    margin-top: 0px;
+}
+
+.prof1{
+    width: 150px;
+    height: 263px;
+    background-image: url('../images/brandy3.jpg');
+    background-size: cover;
+    margin: 0px;
+    margin: 2.5px;
+    margin-top: 0px;
+}
+
+ .prof3{
+    width: 150px;
+    height: 263px;
+    background-image: url('../images/brandy5.jpg');
+    background-size: cover;
+    margin: 0px;
+    margin: 2.5px;
+    margin-top: 0px;
+}
+
+.prof5{
+    width: 150px;
+    height: 263px;
+    background-image: url('../images/brandy4.jpg');
+    background-size: cover;
+    margin: 0px;
+    margin: 2.5px;
+    margin-top: 0px;
+}
+
+
+.himage2{
+    width: 150px;
+    height: 263px;
+    background-color: red;
+    margin: 2.5px;
+    margin-top: 25px;
+    
+}
+
+.prof2{
+    width: 150px;
+    height: 263px;
+    background-image: url('../images/brandy2.jpg');
+    background-size: cover;
+    margin: 0px;
+    margin: 2.5px;
+    margin-top: 25px;
+}
+
+.prof4{
+    width: 150px;
+    height: 263px;
+    background-image: url('../images/brandy1.jpg');
+    background-size: cover;
+    margin: 0px;
+    margin: 2.5px;
+    margin-top: 25px;
+}
+
+.acontent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.msection{
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #899CF0;
+}
+
+.acontent section h2{
+    color: #899CF0;
+    text-align: center;
+}
+
+.acontent section p{
+    width: 30ch;
+}
+
+
+/*
+========================
+Media Queries
+========================
+*/
+
+@media only screen and (max-width: 600px) {
+    .msection{
+        border-style: none;
+    }
+}
