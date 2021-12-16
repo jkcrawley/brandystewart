@@ -99,6 +99,7 @@ MAIN NAVIGATION
     height: 100%;
     margin: 0px;
     list-style: url('../images/bellshover.png');
+    position: fixed;
 }
 
 .menu-main-navigation-container ul li{
@@ -163,6 +164,7 @@ MAIN CONTENT
     text-align: left;
     height: auto;
     display: inline-block; 
+    position: relative;
 }
 
 
@@ -521,6 +523,7 @@ MEDIA QUERIES
         max-width: 100%;
         padding: 0;
         margin-top: 2rem;
+        position: relative;
     }
 
     
